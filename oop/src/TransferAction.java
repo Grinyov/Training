@@ -12,8 +12,8 @@ public class TransferAction {
         double demand = from.getAmount() - transactionAmount;
 // проверка остатка и перевод суммы
         if (demand >= 0) {
-            from.setAsset(demand);
-            to.addAsset(transactionAmount);
+            from.setAmount(demand);
+            to.addAmount(transactionAmount);
             return true;
         } else {
             return false;
