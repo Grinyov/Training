@@ -1,5 +1,3 @@
-package oop;
-
 public class Account {
     private long id;
     private double amount;

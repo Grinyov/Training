@@ -1,5 +1,3 @@
-package oop;
-
 public class TransferAction {
     private double transactionAmount;
     public TransferAction(double amount) { // конструктор по умолчанию не предоставляется
